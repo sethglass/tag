@@ -274,4 +274,9 @@ footer .credits {
   padding: 90px 0;
 }
 
+.sponsors .sponsor img {
+  margin: 0 auto;
+  display: block;
+}
+
 /*# sourceMappingURL=custom.css.map */
