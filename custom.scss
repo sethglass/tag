@@ -185,7 +185,7 @@ header ul li a{
 		max-height: 48px;
 	}
 	header #logo, header.sticky #logo {
-	    margin: 16px 0 0 9px;
+	    margin: 13px 0 0 9px;
 	}
 }
 
@@ -266,17 +266,49 @@ footer .credits{
 	  padding: 0;
   }
 
-  #tile-contact{
+/* -------------------------------
+	Contact Section
+---------------------------------*/
+
+  #tile_contact{
 	border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     padding: 90px 0;
   }
 
+/* -------------------------------
+	Sponsors
+---------------------------------*/
+
   .sponsors .sponsor img{
 	  margin: 0 auto;
 	  display: block;
   }
+  @media (max-width: 767px){
+	.rpt_plans .rpt_plan{
+		width: 96%;
+	}
+	.rpt_plans .rpt_plan{
+		margin: 10px 2% 20px!important;
+	}
+	.page .container .row div:first-child{
+		padding: 0;
+	}
+	.rpt_style_basic .rpt_plan .rpt_title{
+		padding: 10px !important;
+	}
+  }
+  @media (max-width: 500px) {
+	.rpt_plans .rpt_plan {
+	  width: 100%;
+	  margin: 20px auto;
+	}
+  } 
 
-  .test{
-	  margin: 0;
+  /* -------------------------------
+	Schedule
+---------------------------------*/
+
+  .sessions .session .title{
+	  color: $color-secondary;
   }
