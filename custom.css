@@ -1,0 +1,179 @@
+/* Variables */
+/* Dark Blue */
+/* Orange */
+/* -------------------------------
+	Text Styles
+---------------------------------*/
+h2 {
+  color: #2a2669; }
+
+h3 {
+  color: #57575C; }
+
+/* -------------------------------
+	Rows
+---------------------------------*/
+/* Cancels out .row h2 and makes h2s consistent across all pages */
+.row h2 {
+  font-size: 36px;
+  line-height: 42px; }
+
+.row h3 {
+  font-size: 22px;
+  font-weight: 300;
+  color: #57575C;
+  line-height: 35px; }
+
+/* Cancels out -15px */
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    padding: 0; } }
+/* -------------------------------
+	Speaker Boxes
+---------------------------------*/
+/* Speaker Boxes: Centers the description vertically */
+.speakers .name {
+  margin: 0px; }
+
+.speaker .description {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.4; }
+
+.speakers .speaker.featured .speaker-inner,
+.speakers .speaker .view {
+  background: #ee5806; }
+
+.speakers .speaker.featured .speaker-inner
+.speakers .speaker .view {
+  line-height: 66px; }
+
+.speakers .speaker .speaker-inner:hover .name {
+  color: #2a2669; }
+
+.speakers .speaker .speaker-inner:hover:before {
+  background: #EEEEEE;
+  opacity: 1; }
+
+@media (max-width: 767px) {
+  .speakers .speaker.featured .view {
+    background-color: #ee5806; } }
+/* -------------------------------
+	Homepage
+---------------------------------*/
+/* Homepage: Updated background image */
+.landing .bg {
+  background-image: url(https://www.techgap2018.com/wp-content/uploads/2018/08/rocky-gap-2018.jpg) !important; }
+
+/* Homepage: Register CTA */
+.landing .btn-secondary {
+  border-color: #2a2669;
+  background-color: #2a2669;
+  border-radius: 4px; }
+
+.landing .btn-secondary:hover {
+  background-color: #503293; }
+
+.landing .box {
+  background: #ee5806;
+  background: rgba(0, 0, 0, 0.2); }
+
+@media (max-width: 991px) {
+  /* Condensed spacing between items on the homepage */
+  .landing h1,
+  .landing h1 > span,
+  .landing .lead {
+    height: auto; }
+
+  .landing h1 {
+    padding-top: 85px; }
+
+  .landing .btn {
+    margin: 30px 0 40px; }
+
+  /* Consistent magrins top to bottom */
+  .landing .box {
+    margin-top: 0px; } }
+@media only screen and (max-width: 500px) {
+  /* Condensed spacing between items on the homepage */
+  .landing h1 {
+    padding-top: 40px;
+    font-size: 36px; }
+
+  .landing .btn-secondary {
+    font-size: 16px; }
+
+  .landing, .landing .bg {
+    height: 600px; } }
+/* -------------------------------
+	Time Counter
+---------------------------------*/
+.timecounter {
+  background-color: #2a2669; }
+
+@media (max-width: 991px) {
+  /* Keeps the days inline */
+  .timecounter .time span.days {
+    display: inline-block; } }
+@media only screen and (max-width: 500px) {
+  .timecounter .title {
+    font-size: 22px; }
+
+  .timecounter .time span {
+    font-size: 32px; }
+
+  .timecounter .time span span {
+    font-size: 11px; } }
+/* -------------------------------
+	Header
+---------------------------------*/
+header ul li a {
+  font-size: 15px; }
+
+@media (min-width: 1200px) {
+  header {
+    max-width: 1170px; }
+
+  /* Centers logo vertially */
+  header #logo {
+    margin: 23px 0 0; } }
+@media (max-width: 991px) {
+  /* Resized logo */
+  header #logo, header.sticky #logo {
+    margin: 23px 0 0 23px; } }
+@media (max-width: 767px) {
+  header #logo img {
+    max-height: 48px; }
+
+  header #logo, header.sticky #logo {
+    margin: 16px 0 0 9px; } }
+@media only screen and (max-width: 500px) {
+  /* Resized logo */
+  header #logo {
+    width: auto;
+    max-width: none; }
+
+  header #logo img {
+    max-height: 49px; } }
+/* -------------------------------
+	Footer
+---------------------------------*/
+/* Removes random line at the bottom of all pages */
+#comments hr {
+  display: none; }
+
+/* -------------------------------
+	Footer
+---------------------------------*/
+/* Footer: Changed Background color, removed extra spacing */
+footer {
+  padding-top: 0px; }
+
+footer .credits {
+  margin-top: 0;
+  color: #FFF;
+  background: #2a2669; }
