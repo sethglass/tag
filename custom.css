@@ -188,7 +188,7 @@ header ul li a {
   }
 
   header #logo, header.sticky #logo {
-    margin: 16px 0 0 9px;
+    margin: 13px 0 0 9px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -268,7 +268,7 @@ footer .credits {
   padding: 0;
 }
 
-#tile-contact {
+#tile_contact {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   padding: 90px 0;
@@ -279,8 +279,28 @@ footer .credits {
   display: block;
 }
 
-.test {
-  margin: 0;
+@media (max-width: 767px) {
+  .rpt_plans .rpt_plan {
+    width: 96%;
+  }
+
+  .rpt_plans .rpt_plan {
+    margin: 10px 2% 20px !important;
+  }
+
+  .page .container .row div:first-child {
+    padding: 0;
+  }
+
+  .rpt_style_basic .rpt_plan .rpt_title {
+    padding: 10px !important;
+  }
+}
+@media (max-width: 500px) {
+  .rpt_plans .rpt_plan {
+    width: 100%;
+    margin: 20px auto;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
