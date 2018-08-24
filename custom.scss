@@ -266,11 +266,19 @@ footer .credits{
 	  padding: 0;
   }
 
+/* -------------------------------
+	Contact Section
+---------------------------------*/
+
   #tile_contact{
 	border-top: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
     padding: 90px 0;
   }
+
+/* -------------------------------
+	Sponsors
+---------------------------------*/
 
   .sponsors .sponsor img{
 	  margin: 0 auto;
@@ -289,7 +297,6 @@ footer .credits{
 	.rpt_style_basic .rpt_plan .rpt_title{
 		padding: 10px !important;
 	}
-
   }
   @media (max-width: 500px) {
 	.rpt_plans .rpt_plan {
@@ -297,3 +304,11 @@ footer .credits{
 	  margin: 20px auto;
 	}
   } 
+
+  /* -------------------------------
+	Schedule
+---------------------------------*/
+
+  .sessions .session .title{
+	  color: $color-secondary;
+  }

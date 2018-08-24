@@ -268,12 +268,18 @@ footer .credits {
   padding: 0;
 }
 
+/* -------------------------------
+	Contact Section
+---------------------------------*/
 #tile_contact {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   padding: 90px 0;
 }
 
+/* -------------------------------
+	Sponsors
+---------------------------------*/
 .sponsors .sponsor img {
   margin: 0 auto;
   display: block;
@@ -301,6 +307,12 @@ footer .credits {
     width: 100%;
     margin: 20px auto;
   }
+}
+/* -------------------------------
+	Schedule
+---------------------------------*/
+.sessions .session .title {
+  color: #ee5806;
 }
 
 /*# sourceMappingURL=custom.css.map */
