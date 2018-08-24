@@ -209,10 +209,6 @@ header ul li a{
 	display: none;
 }
 
-/* -------------------------------
-	Footer
----------------------------------*/
-
 /* Footer: Changed Background color, removed extra spacing */
 footer{
 	padding-top:0px;
@@ -228,7 +224,7 @@ footer .credits{
 ---------------------------------*/
 .embed-wrap {
 	max-width: 700px;
-	margin: 0 auto 40px;
+	margin: 0 auto 40px; 
   }
   
   .embed-responsive {
@@ -249,7 +245,38 @@ footer .credits{
 	height: 100%;
   }
 
+/* -------------------------------
+	Registration Section
+---------------------------------*/
   #registration_background{
 	  background-color: $color-primary;
 	  padding: 80px 0 40px;
+	  margin-bottom: 80px;
+  }
+
+  #registration_background h2{
+	  color: $color-secondary;
+  }
+
+  #registration_background h3{
+	  color: #FFFFFF;
+  }
+
+  #eventbrite-widget-container-47434326347{
+	  padding: 0;
+  }
+
+  #tile-contact{
+	border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 90px 0;
+  }
+
+  .sponsors .sponsor img{
+	  margin: 0 auto;
+	  display: block;
+  }
+
+  .test{
+	  margin: 0;
   }
